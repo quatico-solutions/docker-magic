@@ -65,5 +65,4 @@ alias dbu=docker-build
 
 # Show all alias related docker
 dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/['|\']//g" | sort; }
-unset -f docker-machine-start docker-shell docker-stop docker-stop-all docker-rmi-all docker-build
 
